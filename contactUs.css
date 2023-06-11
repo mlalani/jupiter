@@ -1,0 +1,10 @@
+#contactUs hr{
+    width: 80%;
+}
+
+
+@media (max-width: 450px) {
+    #contactUs hr{
+        width: 100%;
+    }
+} 

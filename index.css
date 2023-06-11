@@ -1,0 +1,41 @@
+.homePageMainContainer {
+    margin: 2rem 10vw;
+    max-width: 1340px;
+    text-align: left;
+}
+
+
+@media (max-width: 1340px) {
+    .homePageMainContainer {
+        margin: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .homePageMainContainer {
+        margin: 2rem 20px;
+    }
+} 
+
+
+@media (max-width: 450px) {
+    .homePageMainContainer {
+        margin: 2rem 0px;
+        padding: 0px 20px;
+    }
+} 
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #202528;
+    color: white;
+    text-align: center;
+ }
+
+ .footer p{
+    margin-top: 1rem;
+ }
